@@ -84,8 +84,14 @@ apt-get install -y  htop
 apt-get install -y  shellter  
 apt-get install -y  jboss-autopwn  
 apt-get install -y  wifite  
-apt-get install -y  fruitywifi 
+apt-get install -y  fruitywifi
+apt-get install -y  snapd
+snap install amass 
+snap install powershell --classic
 apt autoremove -y
 apt-get clean
+cd
+cd Gitlist
+./gitlist2.sh
 chmod +777 GetClones.py
 ./GetClones.py
